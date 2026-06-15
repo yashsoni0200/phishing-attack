@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Attack Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Phishing Attack Awareness</h1>
+
+    <p>
+        Phishing is a cyber attack where attackers trick users
+        into sharing sensitive information through fake emails,
+        websites, or messages.
+    </p>
+
+    <h2>Common Types of Phishing</h2>
+
+    <ul>
+        <li>Email Phishing</li>
+        <li>Spear Phishing</li>
+        <li>Website Spoofing</li>
+        <li>SMS Phishing (Smishing)</li>
+    </ul>
+
+    <h2>How to Identify Phishing?</h2>
+
+    <ul>
+        <li>Check suspicious links</li>
+        <li>Do not share passwords</li>
+        <li>Verify unknown emails</li>
+        <li>Look for spelling mistakes</li>
+    </ul>
+
+    <button onclick="showMessage()">Check Safety Tips</button>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
